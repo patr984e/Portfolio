@@ -48,6 +48,7 @@ function sidenVises() {
 function forsideIndex() {
     console.log("forside_index");
 
+
     document.querySelector("#forside_video").addEventListener("click", toggleFire);
 
 
