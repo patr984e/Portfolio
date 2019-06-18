@@ -141,7 +141,7 @@ footer h2 {
 }
 
 
-#nav_indhold section a:hover {
+#nav_indhold a:hover {
     color: #ac2222;
     transition: 0.3s;
     font-size: 3.4rem;
@@ -154,12 +154,13 @@ footer h2 {
 
 #burger_knap {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     justify-content: center;
     color: white;
     right: 1vw;
     cursor: pointer;
+    font-size: 2.5rem;
 
 }
 
@@ -186,6 +187,7 @@ footer h2 {
 
 
 }
+
 
 
 
@@ -381,6 +383,7 @@ footer h2 {
 
 
 
+
 /*_____________indhold____________*/
 
 .section_wrapper_indhold {
@@ -408,11 +411,11 @@ footer h2 {
 }
 
 #tilbageknap {
-    background-image: url(image/SVG/Asset%202.svg);
+    background-image: url(image/SVG/Asset%201.svg);
     background-size: 100%;
     object-fit: contain;
     position: absolute;
-    width: 100px;
+    width: 75px;
     height: 75px;
     top: 80px;
     left: 30px;
@@ -420,6 +423,54 @@ footer h2 {
     cursor: pointer;
 
 }
+
+.bil_ind {
+    width: 350px;
+    height: 200px;
+    background-image: url(image/zarko_doku.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*______________col____________
+jeg har lavet en col, der passer til alle mine cols i mine portfolio-sider. de hedder alle sammen web, men passer til alle collonerne. det nåede jeg ikke at få ændret.*/
+
+.col_webdesign {
+    width: 450px;
+    height: 800px;
+    background-size: 100%;
+    object-fit: contain;
+    z-index: 10;
+    border-radius: 2rem;
+    margin-top: 80px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.73);
+    text-align: left;
+    padding: 20px;
+    margin: 5vw;
+    margin-top: 80px;
+
+
+
+}
+
+.col_webdesign1 {
+    width: 400px;
+    height: 800px;
+    background-size: 100%;
+    object-fit: contain;
+    z-index: 10;
+    border-radius: 2rem;
+    margin-top: 80px;
+
+    background-color: rgba(255, 255, 255, 0.73);
+    text-align: left;
+    padding: 20px;
+    margin-top: 5vw;
+
+
+}
+
 
 /*____________webdesign____________*/
 .header_tema {
@@ -446,23 +497,7 @@ footer h2 {
 
 }
 
-.col_webdesign {
-    width: 450px;
-    height: 800px;
-    background-size: 100%;
-    object-fit: contain;
-    z-index: 10;
-    border-radius: 2rem;
-    margin-top: 80px;
-    max-width: 500px;
-    background-color: rgba(255, 255, 255, 0.73);
-    text-align: left;
-    margin: 5vw;
-    padding: 20px;
 
-
-
-}
 
 .txt_web {
     padding: 20px;
@@ -470,25 +505,19 @@ footer h2 {
 
 
 
+}
+
+.bil_web {
+    width: 350px;
+    height: 200px;
+    background-image: url(image/favicon.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
 
 
 }
 
-.col_webdesign1 {
-    width: 400px;
-    height: 800px;
-    background-size: 100%;
-    object-fit: contain;
-    z-index: 10;
-    border-radius: 2rem;
-    margin-top: 80px;
 
-    background-color: rgba(255, 255, 255, 0.73);
-    text-align: left;
-    padding: 20px;
-
-
-}
 
 .col_webdesign1 p {
     font-size: 1.1rem;
@@ -538,6 +567,48 @@ footer h2 {
 
 }
 
+.billede_4 {
+    width: 400px;
+    height: 800px;
+    background-image: url(image/Moonbar_ux.JPG);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    border-radius: 2rem;
+    margin: 5vw;
+    margin-top: 80px;
+
+}
+
+.billede_2 {
+    width: 450px;
+    height: 800px;
+    background-image: url(image/bil_indhold_z.JPG);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    border-radius: 2rem;
+    margin: 5vw;
+    margin-top: 80px;
+
+
+
+}
+
+.bil_ux {
+    width: 200px;
+    height: 350px;
+    background-image: url(image/Moonbar_ux.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+
+
+
+}
+
 .col_ux {
     width: 400px;
     height: 600px;
@@ -562,6 +633,20 @@ footer h2 {
 
 }
 
+.billede_3 {
+    width: 450px;
+    height: 800px;
+    background-image: url(image/jan_ani.JPG);
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    border-radius: 2rem;
+    margin: 5vw;
+    margin-top: 80px;
+
+}
+
 .col_ani {
     width: 400px;
     height: 600px;
@@ -571,6 +656,26 @@ footer h2 {
     margin: 10vw;
     margin-top: 80px;
     max-width: 500px;
+}
+
+.bil_ani1 {
+    width: 400px;
+    height: 200px;
+    background-image: url(image/tyskland.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.bil_ani2 {
+    width: 350px;
+    height: 200px;
+    background-image: url(image/gani_privatsnak2.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
 }
 
 /*_____________________cv______________*/
@@ -618,23 +723,27 @@ footer h2 {
 #om_mig {
     top: 56.25vw;
     width: 100vw;
-    min-height: 56.25vw;
-    background-color: brown;
+    min-height: 100vh;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
+
 
 
 }
 
 .om_col {
-    flex-basis: 300px;
+    flex-basis: 500px;
+    flex-grow: 1;
     width: 50vw;
-    height: 800px;
+    min-height: 56.25vh;
     background-color: white;
     z-index: 10;
-    margin: 5vw;
-    border-radius: 30px;
-    padding: 20px;
+    text-align: center;
+
+    padding: 100px;
+    margin: 20px;
+
 
 
 
@@ -646,8 +755,10 @@ footer h2 {
 }
 
 .pic_patrick {
-    background-image: url(image/Udklip-infernal.JPG);
-    background-size: cover;
+    background-image: url(image/1x/Artboard%202.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 
 
 
@@ -655,30 +766,57 @@ footer h2 {
 
 .sectionwrapper_cv {
     width: 100vw;
-    min-height: 100vh;
-    background-color: darkblue;
+    min-height: 56.25vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     position: relative;
 
+
 }
 
+
+.cv_col1 {
+    background-image: url(image/1x/Artboard%203.png);
+    background-repeat: no-repeat;
+    flex-basis: 500px;
+    background-size: contain;
+    flex-grow: 1;
+    width: 50vw;
+    min-height: 56.25vh;
+    z-index: 10;
+    margin: 20px;
+
+}
 
 .cv_col {
-    flex-basis: 300px;
-    width: 350px;
-    height: 350px;
+    flex-basis: 500px;
+    flex-grow: 1;
+    width: 50vw;
+    min-height: 56.25vh;
     background-color: white;
     z-index: 10;
-    margin: 5vw;
-    border-radius: 30px;
-    padding: 20px;
 
 }
 
 
 
+.skills {
+
+    height: 100%;
+    width: 100%;
+    transform: scale(0.9);
+
+
+
+}
+
+.text_1 {
+    position: absolute;
+    right: 200px;
+    top: 80px;
+    z-index: 20;
+    color: white;
+}
 
 .scroll_ned {
     top: 650px;
@@ -689,7 +827,8 @@ footer h2 {
     height: 30px;
     text-align: center;
     border-radius: 30px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
+
 
 
 }
@@ -702,4 +841,29 @@ footer h2 {
 .scroll_ned a {
     text-decoration: none;
     font-size: 10px;
+}
+
+/*______knap til doku_______*/
+
+.doku_knap {
+    width: 370px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+    transition: 0.2s;
+}
+
+.doku_knap h2 {
+    color: white;
+
+}
+
+.doku_knap:hover {
+    background-color: #797979;
+
+}
+
+a {
+    text-decoration: none;
 }
